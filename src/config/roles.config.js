@@ -1,8 +1,7 @@
 // Definición de los roles del sistema 
 export const ROLES = {
     ADMIN: 'ADMIN', 
-    SELLER: 'SELLER', 
-    SUPERVISOR: 'SUPERVISOR',
+    VENDEDOR: 'VENDEDOR',
 }; 
 
 // Configuración de permisos por página 
