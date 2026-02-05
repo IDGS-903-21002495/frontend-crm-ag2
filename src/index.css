@@ -1,0 +1,19 @@
+/**
+ * Estilos Globales + Tailwind CSS
+ * Este archivo importa Tailwind CSS v4 y define estilos base para la aplicación.
+ * @import "tailwindcss" - Importa todas las utilidades de Tailwind CSS
+ */
+
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
