@@ -1,11 +1,6 @@
 /**
  * Cliente HTTP de Axios para consumo de API
- * 
  * Este archivo configura la instancia base de Axios que se utilizará en todo el proyecto para hacer peticiones HTTP al backend
- * - URL base configurable por variable de entorno (VITE_API_URL)
- * - Timeout de 10 segundos por defecto
- * - Interceptor de request: Agrega automáticamente el token JWT a cada petición
- * - Interceptor de response: Maneja errores de autenticación (401) y redirige al login
  */
 import axios from 'axios';
 
@@ -36,7 +31,6 @@ apiClient.interceptors.request.use(
 
 /**
  * Interceptor de Response
- * Maneja respuestas exitosas y errores globales
  * *Si el error es 401 (No autorizado), limpia el token y redirige al login
  */
 apiClient.interceptors.response.use(

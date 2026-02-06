@@ -1,6 +1,6 @@
 /**
  * Configuración global de la aplicación
- * Este archivo centraliza todas las configuraciones y constantes que se utilizan en diferentes partes de la aplicación.
+ * Este archivo centraliza todas las configuraciones que se utilizan en diferentes partes de la aplicación.
  */
 
 export const config = {

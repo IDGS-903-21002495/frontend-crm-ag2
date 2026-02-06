@@ -1,8 +1,5 @@
 /**
  * Configuración de Tailwind CSS 
- * - content: Archivos donde Tailwind buscará clases CSS para incluir en el build
- * - theme: Personalización de colores, espaciado, fuentes, etc.
- * - plugins: Plugins adicionales de Tailwind (formularios, tipografía, etc.)
  */
 
 /** @type{import('tailwindcss').Config} */
@@ -19,9 +16,9 @@ export default {
             // Colores personalizados del CRM
             colors: {
                 primary: {
-                    DEFAULT: '#2f2335ff',  // Color primario principal
-                    dark: '#000',          // Variante oscura
-                    light: '#fff'          // Variante clara
+                    DEFAULT: '#2f2335ff', 
+                    dark: '#000',          
+                    light: '#fff'          
                 }
             }
         }
